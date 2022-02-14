@@ -120,10 +120,10 @@ body{
 
 .jogos-novos{
     position: absolute;
-    width: 1535px;
-    height: 637px;
-    left: 203px;
-    top: 874px;
+    width: 1532px;
+    height: 531px;
+    left: 198px;
+    top: 885px;
 }
 .jogos-novos h1{
     font-style: normal;
@@ -139,6 +139,71 @@ body{
 .jogos-novos a:hover{
     color: rgb(85, 85, 85);
 }
+
+
+.guardioes-da-galaxia{
+    display: inline-block;
+    width: 299px;
+    height: 459.35px;
+    left: 237px;
+    top: 949px;
+}
+.guardioes-da-galaxia img{
+    width: 299px;
+    height: 398px;
+    left: 237px;
+    top: 949px;
+}
+
+
+
+.far-cry-6{
+    display: inline-block;
+    width: 276px;
+    height: 467px;
+    left: 638px;
+    top: 949px;
+}
+.far-cry-6 img{
+    width: 276px;
+    height: 398px;
+    left: 638px;
+    top: 949px;
+}
+
+
+
+.assassins-creed-valhalla{
+    display: inline-block;
+    width: 305px;
+    height: 467px;
+    left: 1016px;
+    top: 943px;
+}
+.assassins-creed-valhalla img{
+    width: 305px;
+    height: 398px;
+    left: 1016px;
+    top: 943px;
+}
+
+
+
+.the-witcher-3{
+    display: inline-block;
+    width: 307px;
+    height: 459px;
+    left: 1423px;
+    top: 949px;
+
+}
+.the-witcher-3 img{
+    width: 307px;
+    height: 398px;
+    left: 1423px;
+    top: 949px;
+}
+
 
 
 .jogos-em-promoção{
