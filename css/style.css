@@ -154,6 +154,12 @@ body{
     left: 237px;
     top: 949px;
 }
+.guardioes-da-galaxia p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
 
 
 
@@ -169,6 +175,12 @@ body{
     height: 398px;
     left: 638px;
     top: 949px;
+}
+.far-cry-6 p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
 }
 
 
@@ -186,6 +198,12 @@ body{
     left: 1016px;
     top: 943px;
 }
+.assassins-creed-valhalla p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
 
 
 
@@ -202,6 +220,12 @@ body{
     height: 398px;
     left: 1423px;
     top: 949px;
+}
+.the-witcher-3 p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
 }
 
 
