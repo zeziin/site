@@ -147,6 +147,15 @@ body{
     height: 459.35px;
     left: 237px;
     top: 949px;
+    color: #FFFFFF;
+}
+.guardioes-da-galaxia span{
+    background-color: rgba(0, 116, 240, 1);
+    border-radius: 3px;
+    padding: 5px;
+}
+.guardioes-da-galaxia strike{
+    padding: 10px;
 }
 .guardioes-da-galaxia img{
     width: 299px;
@@ -157,7 +166,7 @@ body{
 .guardioes-da-galaxia p{
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 28px;
 }
 
@@ -169,6 +178,15 @@ body{
     height: 467px;
     left: 638px;
     top: 949px;
+    color: #FFFFFF;
+}
+.far-cry-6 span{
+    background-color: rgba(0, 116, 240, 1);
+    border-radius: 3px;
+    padding: 5px;
+}
+.far-cry-6 strike{
+    padding: 10px;
 }
 .far-cry-6 img{
     width: 276px;
@@ -179,7 +197,7 @@ body{
 .far-cry-6 p{
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 28px;
 }
 
@@ -191,6 +209,15 @@ body{
     height: 467px;
     left: 1016px;
     top: 943px;
+    color: #FFFFFF;
+}
+.assassins-creed-valhalla span{
+    background-color: rgba(0, 116, 240, 1);
+    border-radius: 3px;
+    padding: 5px;
+}
+.assassins-creed-valhalla strike{
+    padding: 10px;
 }
 .assassins-creed-valhalla img{
     width: 305px;
@@ -201,7 +228,7 @@ body{
 .assassins-creed-valhalla p{
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 28px;
 }
 
@@ -213,7 +240,15 @@ body{
     height: 459px;
     left: 1423px;
     top: 949px;
-
+    color: #FFFFFF;
+}
+.the-witcher-3 span{
+    background-color: rgba(0, 116, 240, 1);
+    border-radius: 3px;
+    padding: 5px;
+}
+.the-witcher-3 strike{
+    padding: 10px;
 }
 .the-witcher-3 img{
     width: 307px;
@@ -224,7 +259,7 @@ body{
 .the-witcher-3 p{
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 28px;
 }
 
@@ -250,6 +285,110 @@ body{
 }
 .jogos-em-promoção a:hover{
     color: rgb(85, 85, 85);
+}
+
+
+.back-blood4{
+    display: inline-block;
+    color: #FFFFFF;
+}
+.back-blood4 span{
+    background-color: rgba(0, 116, 240, 1);
+    border-radius: 3px;
+    padding: 5px;
+}
+.back-blood4 strike{
+    padding: 10px;
+}
+.back-blood4 p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+
+.kena{
+    display: inline-block;
+    color: #FFFFFF;
+}
+.kena span{
+    background-color: rgba(0, 116, 240, 1);
+    border-radius: 3px;
+    padding: 5px;
+}
+.kena strike{
+    padding: 10px;
+}
+.kena p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+
+.red-dead-redemption-2{
+    display: inline-block;
+    color: #FFFFFF;
+}
+.red-dead-redemption-2 span{
+    background-color: rgba(0, 116, 240, 1);
+    border-radius: 3px;
+    padding: 5px;
+}
+.red-dead-redemption-2 strike{
+    padding: 10px;
+}
+.red-dead-redemption-2 p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+
+.riders-republic{
+    display: inline-block;
+    color: #FFFFFF;
+}
+.riders-republic span{
+    background-color: rgba(0, 116, 240, 1);
+    border-radius: 3px;
+    padding: 5px;
+}
+.riders-republic strike{
+    padding: 10px;
+}
+.riders-republic p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+
+.darkest-dungeon{
+    display: inline-block;
+    color: #FFFFFF;
+}
+.darkest-dungeon span{
+    background-color: rgba(0, 116, 240, 1);
+    border-radius: 3px;
+    padding: 5px;
+}
+.darkest-dungeon strike{
+    padding: 10px;
+}
+.darkest-dungeon p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
 }
 
 
