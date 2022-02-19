@@ -117,6 +117,21 @@ body{
     left: 198px;
     top: 124px;
 }
+.banner img{
+    max-width: 1500px;
+    max-height: 703px;
+    min-width: 1500px;
+}
+.texto-banner{
+    position: absolute;
+    width: 86px;
+    height: 21px;
+    left: 725px;
+    top: 1px;
+    font-size: xx-large;
+    line-height: 21px;
+}
+
 
 .jogos-novos{
     position: absolute;
