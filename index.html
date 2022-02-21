@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,13 +15,27 @@
 
             <img class="logotipo" src="imagens/nav bar/Logo.png" alt="">
 
-            <nav class="menu">
+            <nav class="menu" id="mySidebar">
 
                 <a href="">Home</a>
                 <a href="">Jogos</a>
                 <a href="">Novidades</a>
 
             </nav>
+
+            <div class="icone-sanduiche">
+                <button onclick="w3_open()"><img src="imagens/nav bar/mais opição.png" alt=""></button>
+            </div>
+
+            <script>
+                function w3_open() {
+                  document.getElementById("mySidebar").style.display = "block";
+                }
+                
+                function w3_close() {
+                  document.getElementById("mySidebar").style.display = "none";
+                }
+            </script>
 
             <a class="lista-de-desejos" href="">Lista de desejos</a>
             <a class="carrinho" href="">Carrinho</a>
