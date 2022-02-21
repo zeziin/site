@@ -38,7 +38,9 @@ body{
 .menu a:hover{
     color: rgb(85, 85, 85);
 }
-
+.icone-sanduiche{
+    display: none;
+}
 
 .lista-de-desejos{
     position: absolute;
