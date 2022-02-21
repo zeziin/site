@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 header{
     background-color: rgba(51, 51, 51, 1);
     position: absolute;
-    width: 1920px;
-    height: 100px;
-    left: -20px;
-    top: 0px;  
+    width: 100%;
+    height: 100px; 
     text-decoration: inherit; 
 }
 
@@ -19,12 +22,12 @@ header{
 
 body{
     background-color: rgba(17, 17, 17, 1);
+    font-family: 'Roboto',sans-serif;
 }
 
 
 .menu{
     position: absolute;
-    width: 251.48px;
     height: 42px;
     left: 499.93px;
     top: 38px;
@@ -90,7 +93,7 @@ body{
     position: absolute;
     width: 65px;
     height: 60px;
-    left: 1810px;
+    left: 1785px;
     top: 9px;    
 
     color: #FFFFFF;
@@ -129,7 +132,7 @@ body{
     width: 86px;
     height: 21px;
     left: 725px;
-    top: 1px;
+    top: 15px;
     font-size: xx-large;
     line-height: 21px;
 }
@@ -469,8 +472,23 @@ footer{
 
 .logo{
     position: absolute;
-    width: 325px;
+    width: 30px;
     height: 124px;
-    left: 1550px;
-    top: 140px;
+    left: 1600px;
+    top: 105px;
+}
+
+@media screen and (max-width: 768px){
+    .container-grid{
+        position: absolute;
+        width: 100%;
+        height: 94px;
+    }
+    .icone-sanduiche{
+        position: absolute;
+        width: 7.5%;
+        height: 32px;
+        left: 13px;
+        top: 31px;
+    }
 }
