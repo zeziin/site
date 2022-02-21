@@ -426,7 +426,7 @@ footer{
     width: 189px;
     height: 214px;
     left: 50px;
-    
+    top: 15px;
 }
 .navegação a,h2,li{
     color: #FFFFFF;
@@ -443,6 +443,7 @@ footer{
     width: 553px;
     height: 219px;
     left: 380px;
+    top: 15px;
     
     color: #FFFFFF;
 }
@@ -453,6 +454,7 @@ footer{
     width: 298px;
     height: 140px;
     left: 1150px;
+    top: 15px;
     
     font-size: 20px;
     color: #FFFFFF;
@@ -464,6 +466,7 @@ footer{
     width: 345px;
     height: 117px;
     left: 1550px;
+    top: 15px;
     
     color: #FFFFFF;
 }
@@ -474,7 +477,7 @@ footer{
     width: 30px;
     height: 124px;
     left: 1600px;
-    top: 105px;
+    top: 125px;
 }
 
 @media screen and (max-width: 768px){
