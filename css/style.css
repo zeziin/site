@@ -9,7 +9,7 @@
 header{
     background-color: rgba(51, 51, 51, 1);
     position: absolute;
-    width: 100%;
+    width: 1920px;
     height: 100px; 
     text-decoration: inherit; 
 }
@@ -19,6 +19,16 @@ header{
     margin-left: 25px;
 }
 
+.pesquisa{
+    background-color: rgba(51, 51, 51, 1);
+    text-align: center;
+    position: absolute;
+    width: 227.47px;
+    height: 57px;
+    left: 208.49px;
+    top: 19px;
+    border-radius: 20px;
+}
 
 body{
     background-color: rgba(17, 17, 17, 1);
@@ -88,6 +98,9 @@ body{
     color: rgb(85, 85, 85);
 }
 
+.carrinho img{
+    display: none;
+}
 
 .conta{
     position: absolute;
@@ -123,9 +136,9 @@ body{
     top: 124px;
 }
 .banner img{
-    max-width: 1500px;
-    max-height: 703px;
-    min-width: 1500px;
+    width: 1500px;
+    height: 703px;
+    width: 1500px;
 }
 .texto-banner{
     position: absolute;
@@ -481,16 +494,161 @@ footer{
 }
 
 @media screen and (max-width: 768px){
-    .container-grid{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        width: 768px;
+        height: 2500px
+    }
+
+    header{
         position: absolute;
-        width: 100%;
+        width: 768px;
         height: 94px;
     }
+
     .icone-sanduiche{
+        display: block;
         position: absolute;
-        width: 7.5%;
+        width: 58px;
         height: 32px;
         left: 13px;
         top: 31px;
+        background-color: rgba(51, 51, 51, 1);
+    }
+
+    .logotipo{
+        position: absolute;
+        width: 148px;
+        height: 94px;
+        left: 310px;
+    }
+
+    .pesquisa{
+        background-color: rgba(51, 51, 51, 1);
+        text-align: center;
+        position: absolute;
+        width: 157px;
+        height: 42px;
+        left: 105px;
+        top: 26px;
+        border-radius: 20px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .carrinho img{
+        display: block;
+    }
+    .carrinho{
+        position: absolute;
+        width: 68.86px;
+        height: 69px;
+        left: 550px;
+        top: 18px;
+    }
+
+    .lista-de-desejos{
+        display: none;
+    }
+
+    .conta{
+        position: absolute;
+        width: 103.79px;
+        height: 80px;
+        left: 657px;
+        top: 7px;
+    }
+
+    .banner img{
+        width: 750px;
+        height: 356px;
+    }
+    .banner{
+        position: absolute;
+        left: 10px;
+        top: 142px;
+    }
+    .texto-banner{
+        position: absolute;
+        width: 86px;
+        height: 21px;
+        left: 350px;
+        top: 15px;
+
+        font-size: xx-large;
+        line-height: 21px;
+    }
+    
+    .jogos-novos{
+        position: absolute;
+        width: 748px;
+        height: 224px;
+        left: 65px;
+        top: 522px;
+    }
+
+    .jogos-em-promoção{
+        position: absolute;
+        width: 748px;
+        height: 279px;
+        left: 65px;
+        top: 1550px;
+    }
+
+    .darkest-dungeon{
+        display: none;
+    }
+
+    footer{
+        position: absolute;
+        width: 768px;
+        height: 210px;
+        top: 2500px;
+        bottom: 0px;
+    }
+
+    .navegação{
+        position: absolute;
+        width: 290px;
+        height: 220px;
+        left: 50px;
+    }
+
+    .formas-de-pagamento{
+        display: none;
+    }
+
+    .contato{
+        position: absolute;
+        width: 300px;
+        height: 135px;
+        left: 282px;
+    }
+
+    .rede-sociais img{
+        width:  50px;
+    }
+    .rede-sociais{
+        position: absolute;
+        width: 350px;
+        height: 82px;
+        left: 550px;
+    }
+
+    .logo{
+        position: absolute;
+        width: 198px;
+        height: 52px;
+        left: 575px;
+        top: 100px;
     }
 }
