@@ -130,15 +130,12 @@ body{
 
 .banner{
     position: absolute;
-    width: 1535px;
-    height: 703px;
     left: 198px;
     top: 124px;
 }
 .banner img{
     width: 1500px;
     height: 703px;
-    width: 1500px;
 }
 .texto-banner{
     position: absolute;
@@ -427,8 +424,9 @@ body{
 
 footer{
     position: absolute;
-    width: 100%;
-    height: 230px;
+    width: 1920px;
+    height: 249px;
+    left: 0px;
     top: 2266px;
     background-color: rgba(51, 51, 51, 1);
 }
@@ -493,18 +491,24 @@ footer{
     top: 125px;
 }
 
+.menu button{
+    display: none;
+    background-color: rgba(51, 51, 51, 1);
+    color: white;
+}
+
 @media screen and (max-width: 768px){
     @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
     *{
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
     }
 
     body{
-        width: 768px;
-        height: 2500px
+        position: relative;
+        max-width: 768px;
+        max-width: 1600px;
     }
 
     header{
@@ -519,8 +523,18 @@ footer{
         width: 58px;
         height: 32px;
         left: 13px;
-        top: 31px;
+        top: 10px;
         background-color: rgba(51, 51, 51, 1);
+    }
+
+    .menu button{
+        display: block;
+    }
+
+    .menu{
+        top: 60px;
+        left: 15px;
+        width: 50px;
     }
 
     .logotipo{
@@ -596,24 +610,36 @@ footer{
         top: 522px;
     }
 
+    .guardioes-da-galaxia,.far-cry-6{
+        width: 350px;
+    }
+
+    .the-witcher-3,.assassins-creed-valhalla{
+        display: none;
+    }
+
     .jogos-em-promoção{
         position: absolute;
         width: 748px;
         height: 279px;
         left: 65px;
-        top: 1550px;
+        top: 1100px;
     }
 
-    .darkest-dungeon{
+    .back-blood4,.kena{
+        width: 350px;
+    }
+
+    .darkest-dungeon,.red-dead-redemption-2,.riders-republic{
         display: none;
     }
 
     footer{
         position: absolute;
         width: 768px;
-        height: 210px;
-        top: 2500px;
-        bottom: 0px;
+        height: 238px;
+        top: 1600px;
+        background-color: rgba(51, 51, 51, 1);
     }
 
     .navegação{
