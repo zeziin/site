@@ -506,6 +506,7 @@ footer{
     }
 
     header{
+        background-color: rgba(51, 51, 51, 1);
         position: absolute;
         width: 768px;
         height: 94px;
@@ -518,7 +519,6 @@ footer{
         height: 32px;
         left: 13px;
         top: 10px;
-        background-color: rgba(51, 51, 51, 1);
     }
 
     .menu button{
@@ -687,5 +687,180 @@ footer{
         height: 52px;
         left: 575px;
         top: 128px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    header{
+        position: absolute;
+        width: 320px;
+        height: 94px;
+    }
+
+    .icone-sanduiche{
+        display: block;
+        position: absolute;
+        width: 50px;
+        height: 35px;
+        left: 130px;
+        top: 15px;
+    }
+
+    .menu button{
+        display: block;
+        width: 70px;
+        left: auto;
+        font-size: 18px;
+        margin-top: 16px;
+    }
+
+    .menu{
+        position: absolute;
+        top: 50px;
+        left: 230px;
+        font-size: 15px;    
+    }
+    .menu a{
+        background-color:darkcyan;
+    }
+
+    .logotipo{
+        position: absolute;
+        width: 100px;
+        height: 59px;
+        left: -25px;
+        top: 20px;
+    }
+
+    .pesquisa{
+        position: absolute;
+        width: 124px;
+        height: 31px;
+        left: 114px;
+        top: 30px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .carrinho{
+        display: none;
+    }
+    .conta{
+        display: none;
+    }
+
+    .lista-de-desejos{
+        display: none;
+    }
+
+    .banner img{
+        position: absolute;
+        width: 320px;
+        height: 180px;
+        left: -10px;
+        opacity: 0.3;
+    }
+    .texto-banner{
+        position: absolute;
+        width: 275px;
+        height: 51px;
+        left: 120px;
+        top: 75px;
+        font-size: larger;
+        color: #FFFFFF;  
+    }
+    .jogos-novos{
+        position: absolute;
+        width: 185px;
+        height: 239px;
+        left: 15px;
+        top: 375px;
+    }
+
+    .guardioes-da-galaxia{
+        width: 300px;
+    }
+
+    .the-witcher-3,.assassins-creed-valhalla,.far-cry-6{
+        display: none;
+    }
+
+    .jogos-em-promoção{
+        position: absolute;
+        width: 500px;
+        height: 279px;
+        left: 32px;
+        top: 900px;
+    }
+
+    .back-blood4{
+        width: 350px;
+    }
+
+
+    .darkest-dungeon,.red-dead-redemption-2,.riders-republic,.kena{
+        display: none;
+    }
+
+    footer{
+        position: absolute;
+        width: 320px;
+        height: 764px;
+        top: 1405px;
+        background-color: rgba(51, 51, 51, 1);
+    }
+
+    .navegação{
+        position: absolute;
+        width: 290px;
+        height: 220px;
+        left: 50px;
+    }
+    .navegação li{
+        font-size: x-large;
+    }
+
+    .formas-de-pagamento{
+        display: none;
+    }
+
+    .contato{
+        position: absolute;
+        width: 320px;
+        height: 135px;
+        left: 25px;
+        top: 275px;
+    }
+    .contato p{
+        padding: 15px;
+        font-size: x-large;
+    }
+
+    .rede-sociais img{
+        width:  50px;
+    }
+    .rede-sociais{
+        position: absolute;
+        width: 350px;
+        height: 82px;
+        left: 30px;
+        top: 475px;
+    }
+
+    .logo{
+        position: absolute;
+        width: 198px;
+        height: 52px;
+        left: 80px;
+        top: 625px;
     }
 }
