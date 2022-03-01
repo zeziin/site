@@ -18,7 +18,7 @@
             <input type="text" class="pesquisa" id="pesquisar" onkeyup="myFunction()" placeholder="Pesquisar" autocomplete="off">
 
             <nav class="menu" id="mySidebar">
-                <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+                <button onclick="w3_close()" class="fechar">Close &times;</button>
 
                 <a href="">Home</a>
                 <a href="">Jogos</a>
@@ -29,16 +29,6 @@
             <div class="icone-sanduiche">
                 <button class="icone-sanduiche" onclick="w3_open()">☰</button>
             </div>
-
-            <script>
-                function w3_open() {
-                  document.getElementById("mySidebar").style.display = "block";
-                }
-                
-                function w3_close() {
-                  document.getElementById("mySidebar").style.display = "none";
-                }
-            </script>
 
             <a class="lista-de-desejos" href="">Lista de desejos</a>
 
@@ -186,5 +176,6 @@
 
     </footer>
 </body>
+<script src="js/menu.js"></script>
 <script src="js/slides.js"></script>
 </html>
